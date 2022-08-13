@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/native_ads_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffa726"
+    android:padding="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.supernova.new_recyclerview_native_ads.nativetemplates.TemplateView
+        android:id="@+id/m_templatesmall"
+        app:gt_template_type="@layout/gt_small_template_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.supernova.new_recyclerview_native_ads.nativetemplates.TemplateView
+        android:id="@+id/m_templatemedium"
+        app:gt_template_type="@layout/gt_medium_template_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.supernova.new_recyclerview_native_ads.nativetemplates.TemplateView
+        android:id="@+id/m_templatecustom"
+        app:gt_template_type="@layout/gt_custom_medium_template_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
